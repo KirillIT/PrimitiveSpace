@@ -64,23 +64,23 @@ public class Main extends JComponent implements KeyListener, ActionListener {
 
     public void AddPlanets(ArrayList<Planet> planets) {
 
-        planets.add(new Planet(0,   0,    1392684,7000, "D:\\2.png"));              //солнце (в км.с; относительно расстояния от Земли до Солнц; в км; коэффициент; путь к файлу)
+        planets.add(new Planet(0,   0,    1392684,7000, "2.png"));              //солнце (в км.с; относительно расстояния от Земли до Солнц; в км; коэффициент; путь к файлу)
 
-        planets.add(new Planet(47.87,   0.5,  4878,700, "D:\\3.png"));              //Меркурий
+        planets.add(new Planet(47.87,   0.5,  4878,700, "3.png"));              //Меркурий
 
-        planets.add(new Planet(35.02,   0.72,   6050,700, "D:\\4.png"));            //Венера
+        planets.add(new Planet(35.02,   0.72,   6050,700, "4.png"));            //Венера
 
-        planets.add(new Planet(29.78,   1,      12756,1000, "D:\\5.png"));          //Земля
+        planets.add(new Planet(29.78,   1,      12756,1000, "5.png"));          //Земля
 
-        planets.add(new Planet(24.13,   1.52,   6780,250, "D:\\6.png"));            //Марс
+        planets.add(new Planet(24.13,   1.52,   6780,250, "6.png"));            //Марс
 
-        planets.add(new Planet(13.07,   5.2 /1.5,    142600,3000, "D:\\7.png"));    //Юпитер
+        planets.add(new Planet(13.07,   5.2 /1.5,    142600,3000, "7.png"));    //Юпитер
 
-        planets.add(new Planet(9.69,    9.54 /2,   120600,3000, "D:\\8.png"));      //Сатурн
+        planets.add(new Planet(9.69,    9.54 /2,   120600,3000, "8.png"));      //Сатурн
 
-        planets.add(new Planet(6.81,    19.18 /3,  51200,3000, "D:\\9.png"));       //Уран
+        planets.add(new Planet(6.81,    19.18 /3,  51200,3000, "9.png"));       //Уран
 
-        planets.add(new Planet(5.43,    30.06 /3.75,  49500,3000, "D:\\10.png"));   //Нептун
+        planets.add(new Planet(5.43,    30.06 /3.75,  49500,3000, "10.png"));   //Нептун
 
     }
 
@@ -97,7 +97,7 @@ public class Main extends JComponent implements KeyListener, ActionListener {
         }
         Graphics2D g2 = (Graphics2D) g;
 
-        Image imageBG = new ImageIcon("D:\\1.jpg").getImage();
+        Image imageBG = new ImageIcon("1.jpg").getImage();
 
         g2.drawImage(imageBG, 0, 0,WindowSizeX,WindowSizeY, null);
 
